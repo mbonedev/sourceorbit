@@ -1,6 +1,6 @@
 {
 	"name": "vscode-sourceorbit",
-	"displayName": "Source Orbit",
+	"displayName": "Merbag Source Orbit",
 	"description": "Object dependency management tool for IBM i",
 	"icon": "icon.png",
 	"author": {
@@ -284,17 +284,17 @@
 		"postinstall": "cd ../cli && npm install && npm run webpack && cd ../vs && cd client && npm install && cd ../server && npm install && cd .."
 	},
 	"devDependencies": {
-		"@types/mocha": "^9.1.0",
-		"@types/node": "^16.18.41",
-		"@typescript-eslint/eslint-plugin": "^5.54.0",
-		"@typescript-eslint/parser": "^5.54.0",
-		"esbuild-loader": "^4.0.0",
-		"eslint": "^8.35.0",
+		"@types/mocha": "^10.0.10",
+		"@types/node": "^25.8.0",
+		"@typescript-eslint/eslint-plugin": "^8.59.3",
+		"@typescript-eslint/parser": "^8.59.3",
+		"esbuild-loader": "^4.4.3",
+		"eslint": "^10.4.0",
 		"merge-options": "^3.0.4",
 		"mocha": "^11.7.1",
-		"rimraf": "^5.0.1",
-		"typescript": "^5.1.3",
+		"rimraf": "^6.1.3",
+		"typescript": "^6.0.3",
 		"webpack": "^5.88.2",
-		"webpack-cli": "^5.1.4"
+		"webpack-cli": "^7.0.2"
 	}
 }
