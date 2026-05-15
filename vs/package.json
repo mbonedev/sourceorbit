@@ -9,7 +9,7 @@
 	},
 	"publisher": "IBM",
 	"license": "MIT",
-	"version": "1.4.1",
+	"version": "1.4.2",
 	"repository": {
 		"url": "https://github.com/IBM/sourceorbit"
 	},
@@ -273,7 +273,8 @@
 	},
 	"scripts": {
 		"vscode:prepublish": "npm run webpack",
-		"package": "vsce package",
+		"build:vsix": "pwsh -NoProfile -ExecutionPolicy Bypass -File ../build-merbag-vsix.ps1",
+		"package": "npx @vscode/vsce package",
 		"compile": "tsc -b",
 		"clean": "rimraf out && rimraf client/out && rimraf server/out",
 		"webpack": "npm run clean && webpack --mode production --config ./client/webpack.config.js && webpack --mode production --config ./server/webpack.config.js",
