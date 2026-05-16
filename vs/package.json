@@ -1,5 +1,5 @@
 {
-	"name": "vscode-sourceorbit",
+	"name": "vscode-merbag-sourceorbit",
 	"displayName": "Merbag Source Orbit",
 	"description": "Object dependency management tool for IBM i",
 	"icon": "icon.png",
